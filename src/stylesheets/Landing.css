@@ -1,0 +1,51 @@
+.page {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-areas: 'left blob text right';
+    place-items: center;
+    justify-content: center;
+
+}
+
+.blob {
+    top: 60%;
+    grid-area: blob;
+    position: absolute;
+    background: green;
+    opacity: 0.1;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+}
+
+.first {
+    width: 70%;
+    height: 50vh;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+}
+
+.second {
+    width: 65%;
+    height: 50vh;
+    border-radius: 43% 57% 69% 31% / 70% 35% 65% 30%; 
+}
+
+.third {
+    width: 60%;
+    height: 55vh;
+    border-radius: 43% 57% 38% 62% / 70% 79% 21% 30%;
+}
+
+.text {
+    grid-area: text;
+    position: relative;
+    color: rgb(91, 136, 91);
+    top: 25vh;
+    left: -20%;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+}
+
+.learn-more:hover {
+    cursor:pointer;
+    font-size: 110%;
+}
