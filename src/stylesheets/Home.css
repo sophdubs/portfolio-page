@@ -1,0 +1,206 @@
+body {
+    background: rgba(8, 107, 8, 0.2);
+}
+.page {
+    background: #f8f8f8;
+    display: grid;
+    position: relative;
+    grid-template-areas: 'left right';
+    grid-template-columns: 1fr 1fr;
+    margin: 2%;
+    outline: 1px solid rgba(0, 128, 0, 0.2);
+    outline-offset: -10px;
+}
+
+.left-container {
+    grid-area: left;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 'top'
+                         'bottom';
+    text-align: center;
+}
+
+.title {
+    grid-area: top;
+    color: black;
+    font-size: 500%;
+    font-weight: 100;
+    font-style: italic;
+    font-family: Chalkduster, fantasy;
+}
+
+.bee-image {
+    display: flex;
+    justify-self: center;
+    grid-area: bottom;
+    width: 80%;
+    height: 80%;
+    background: url('../img/bee.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.hex {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background: green;
+    height: 22vh;   
+    width: 10vw;
+}
+
+.right-container {
+    padding-top: 8%;
+    padding-right: 10%;
+    grid-area: right;
+    display: grid;
+    position: relative;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'first-row'
+                            'second-row'
+                            'third-row'
+                            'fourth-row'
+                            'fifth-row';
+}
+
+.first-row {
+    position: relative;
+    grid-area: first-row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3%;
+    
+}
+
+.second-row {
+    position: relative;
+    grid-area: second-row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3%;
+    left: -14%;
+    top: -15%;
+}
+
+.third-row {
+    position: relative;
+    grid-area: third-row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3%;
+    top: -30%;
+
+}
+
+.fourth-row {
+    position: relative;
+    grid-area: fourth-row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3%;
+    left: -14%;
+    top: -45%;
+}
+
+.fifth-row {
+    position: relative;
+    grid-area: fifth-row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3%;
+    top: -60%;
+}
+
+
+.one {
+    background: rgba(0, 128, 0, 0.1);
+}
+
+.two {
+    background: url('../img/green1.jpeg') no-repeat;
+    background-position: center;
+}
+
+.three {
+    background: rgba(0, 128, 0, 0.35);
+}
+
+.four {
+    background: #f8f8f8;
+}
+
+.five {
+    background: url('../img/green2.jpeg') no-repeat;
+    background-position: center;
+}
+
+.six {
+    background: #f8f8f8;
+}
+
+.seven {
+    background:rgba(0, 128, 0, 0.2);
+}
+
+.eight {
+    background:rgba(0, 128, 0, 0.35);
+}
+
+.nine {
+    background: #f8f8f8;
+   
+}
+
+.ten {
+    background:rgba(0, 128, 0, 0.1);
+}
+
+.eleven {
+    background: url('../img/green3.jpeg') no-repeat;
+    background-position: center;
+    
+}
+
+.twelve {
+    background:rgba(0, 128, 0, 0.05);
+}
+
+.thirteen {
+    background:rgba(0, 128, 0, 0.2);
+}
+
+.fourteen {
+    background: url('../img/green4.jpeg') no-repeat;
+    background-position: left center;
+}
+
+.fifteen {
+    background:rgba(0, 128, 0, 0.4);
+}
+
+.sixteen {
+    background:rgba(0, 128, 0, 0.3);
+}
+
+.seventeen {
+    background:rgba(0, 128, 0, 0.35);
+}
+
+.eighteen {
+    background:rgba(0, 128, 0, 0.1);
+}
+
+.nineteen {
+    background: #f8f8f8;
+}
+
+.twenty {
+    background: url('../img/green5.jpeg') no-repeat;
+    background-position: center;
+}
+
+
+
