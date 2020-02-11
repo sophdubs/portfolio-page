@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 
 import Landing from './components/Landing';
 import Home from './components/Home';
+import AboutMe from './components/AboutMe';
 
 
-ReactDOM.render(<Home />, document.getElementById('root'));
+ReactDOM.render(<AboutMe/>, document.getElementById('root'));
 

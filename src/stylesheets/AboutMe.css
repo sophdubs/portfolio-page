@@ -1,0 +1,32 @@
+.container {
+    width: 95vw;
+    height: auto;
+    background: white;
+}
+
+.left-container {
+    background: url('../img/line-drawing2.jpg') no-repeat;
+    background-size: 90%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.about-me-title {
+    font-family: Stencil Std, fantasy;
+    font-size: 4vw;
+}
+
+.about-me-text {
+    font-family: Stencil Std, fantasy;
+}
+
+.home-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+}
+
