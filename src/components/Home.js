@@ -13,12 +13,12 @@ class Home extends React.Component {
                 <div className="right-container">
                     <div className="first-row">
                         <div className="hex one"></div>
-                        <div className="hex two"></div>
+                        <div className="hex two link link-one"><p>Skills</p></div>
                         <div className="hex three"></div>
                         <div className="hex four"></div>
                     </div>
                     <div className="second-row">
-                        <div className="hex five"></div>
+                        <div className="hex five link link-two"><p>About Me</p></div>
                         <div className="hex six"></div>
                         <div className="hex seven"></div>
                         <div className="hex eight"></div>
@@ -26,12 +26,12 @@ class Home extends React.Component {
                     <div className="third-row">
                         <div className="hex nine"></div>
                         <div className="hex ten"></div>
-                        <div className="hex eleven"></div>
+                        <div className="hex eleven link link-three"><p>Projects</p></div>
                         <div className="hex twelve"></div>
                     </div>
                     <div className="fourth-row">
                         <div className="hex thirteen"></div>
-                        <div className="hex fourteen"></div>
+                        <div className="hex fourteen link link-four"><p>Blog</p></div>
                         <div className="hex fifteen"></div>
                         <div className="hex sixteen"></div>
                     </div>
@@ -39,7 +39,7 @@ class Home extends React.Component {
                         <div className="hex seventeen"></div>
                         <div className="hex eighteen"></div>
                         <div className="hex nineteen"></div>
-                        <div className="hex twenty"></div>
+                        <div className="hex twenty link link-five"><p>Contact</p></div>
                     </div>
                 </div>
             </div>

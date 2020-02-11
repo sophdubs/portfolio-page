@@ -31,7 +31,7 @@ body {
     font-size: 500%;
     font-weight: 100;
     font-style: italic;
-    font-family: Chalkduster, fantasy;
+    font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
 .bee-image {
@@ -40,7 +40,7 @@ body {
     grid-area: bottom;
     width: 80%;
     height: 80%;
-    background: url('../img/bee.jpg') no-repeat;
+    
     background-size: 100% 100%;
 }
 
@@ -125,7 +125,7 @@ body {
 }
 
 .three {
-    background: rgba(0, 128, 0, 0.35);
+    background: rgba(0, 128, 0, 0.3);
 }
 
 .four {
@@ -151,7 +151,6 @@ body {
 
 .nine {
     background: #f8f8f8;
-   
 }
 
 .ten {
@@ -161,7 +160,6 @@ body {
 .eleven {
     background: url('../img/green3.jpeg') no-repeat;
     background-position: center;
-    
 }
 
 .twelve {
@@ -201,6 +199,72 @@ body {
     background: url('../img/green5.jpeg') no-repeat;
     background-position: center;
 }
+
+.link {
+    font-family: Courier, monospace;
+    font-size: 1.75vw;
+}
+
+.link-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0);
+}
+
+.link-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0);
+}
+
+.link-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0);
+}
+
+.link-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0);
+}
+
+.link-five {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0);
+}
+
+.link-one:hover {
+    cursor: pointer;
+    color:white;
+}
+
+.link-two:hover {
+    cursor: pointer;
+    color:white;
+}
+
+.link-three:hover {
+    cursor: pointer;
+    color:white;
+}
+
+.link-four:hover {
+    cursor: pointer;
+    color:white;
+}
+
+.link-five:hover {
+    cursor: pointer;
+    color:white;
+}
+
 
 
 
