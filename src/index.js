@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// import Landing from './components/Landing';
-import Home from './components/Home';
+import Landing from './components/Landing';
+// import Home from './components/Home';
 // import AboutMe from './components/AboutMe';
 // import Blog from './components/Blog';
 
 import './default.css';
 
 
-ReactDOM.render(<Home/>, document.getElementById('root'));
+ReactDOM.render(<Landing/>, document.getElementById('root'));
 
