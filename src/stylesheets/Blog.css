@@ -1,0 +1,14 @@
+.container {
+    width: 95vw;
+    height: auto;
+    background: white;
+}
+
+.left-container-blog {
+    background: url('../img/line-drawing2.jpg') no-repeat;
+    background-size: 90%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+

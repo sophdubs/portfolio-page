@@ -1,0 +1,27 @@
+body {
+    background: rgba(8, 107, 8, 0.2);
+    margin: auto;
+}
+
+.main-container {
+    background: white;
+    margin: 2%;
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'left right';
+    outline: 1px solid rgba(8, 107, 8, 0.3);
+    outline-offset: -10px;
+    width: 96%;
+    height: 97vh;
+}
+
+.left-container {
+    grid-area: left;
+    position:relative;
+}
+
+.right-container {
+    grid-area: right;
+    position: relative;
+}
