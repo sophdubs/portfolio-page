@@ -13,7 +13,7 @@ body {
     outline: 1px solid rgba(8, 107, 8, 0.3);
     outline-offset: -10px;
     width: 96%;
-    height: 97vh;
+    height: 100%;
 }
 
 .left-container {
