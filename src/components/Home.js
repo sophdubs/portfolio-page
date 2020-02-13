@@ -5,7 +5,7 @@ import '../stylesheets/Home.css';
 class Home extends React.Component {
     render() {
         return (
-            <div className="main-container">
+            <div id="home" className="main-container">
                 <div className="left-container left-home">
                     <h1 className="title-home">Hello World</h1>
                     <div className="bee-image-home"></div>

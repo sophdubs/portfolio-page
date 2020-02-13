@@ -4,7 +4,7 @@ import React from 'react';
 class AboutMe extends React.Component {
     render() {
         return (
-            <div className="page container">
+            <div className="main-container">
                 <div className="left-container"></div>
                 <div className="right-container">
                     <h1 className="about-me-title">About me</h1>
