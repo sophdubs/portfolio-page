@@ -5,10 +5,18 @@ import '../stylesheets/Home.css';
 class Home extends React.Component {
     render() {
         return (
+            // TRYING TO MANIPULATE POSITIONS OF HELLO WORLD, IM SOPHIE TO BE STACKED. 
             <div id="home" className="main-container">
                 <div className="left-container left-home">
-                    <h1 className="title-home">Hello World</h1>
+                    <div className="title-container-home">
+                        <h1 className="title-home">Hello World&#x2c;</h1>
+                    </div>
+                    <div className="name-container-home">
+                        <h1 className="name-home">I'm Sophie</h1>
+                    </div>
+  
                     <div className="bee-image-home"></div>
+                   
                 </div>
                 <div className="right-container right-home">
                     <div className="first-row-home">
