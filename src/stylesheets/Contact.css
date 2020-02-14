@@ -1,0 +1,173 @@
+.right-container {
+    background: url('../img/line-drawing3.jpg') no-repeat;
+    background-size: 75% 90%;
+    position: relative;
+    top: 2vh;
+}
+
+.left-container {
+    position: relative;
+    left: 3vw;
+}
+
+.title-contact h1{
+    font-family: 'Shadows Into Light', cursive;
+    color: hsla(0, 0%, 0%, 0.7);
+    font-size: 5vw;
+    position: relative;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 9vh;
+}
+
+.links-contact {
+    position:relative;
+}
+
+.links-list-contact {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:'linkedin'
+                        'github'
+                        'twitter'
+                        'gmail';
+    width: 40vw;
+    position: relative;
+    left: 5vw;
+    grid-gap: 2vh;
+}
+
+.linked-in-contact {
+    grid-area: linkedin;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: 'li-icon li-link';
+}
+
+.linked-in-icon-contact {
+    grid-area: li-icon;
+    background: url('../img/linked-in-icon.png') no-repeat;
+    background-size: contain;
+    width: 75%;
+    height: 75%;
+    position: relative;
+    left: 3vw;
+    top: 0.5vh;
+}
+
+.linked-in-link-contact {
+    height: 100%;
+    width: 100%;
+    grid-area: li-link;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2vw;
+    font-weight: 300;
+    display: flex;
+    color: hsla(0, 0%, 0%, 0.7); 
+    margin:0;
+}
+
+.twitter-contact {
+    grid-area: twitter;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: 'tw-icon tw-link';
+}
+
+.twitter-icon-contact {
+    grid-area: tw-icon;
+    background: url('../img/twitter-icon.png') no-repeat;
+    background-size: contain;
+    width: 75%;
+    height: 75%;
+    position: relative;
+    left: 3vw;
+    top: 0.5vh;
+}
+
+.twitter-link-contact {
+    height: 100%;
+    width: 100%;
+    grid-area: tw-link;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2vw;
+    font-weight: 300;
+    display: flex;
+    color: hsla(0, 0%, 0%, 0.7); 
+    margin:0;
+}
+
+.github-contact {
+    grid-area: github;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: 'gh-icon gh-link';
+}
+
+.github-icon-contact {
+    grid-area: gh-icon;
+    background: url('../img/github-icon.png') no-repeat;
+    background-size: contain;
+    width: 75%;
+    height: 75%;
+    position: relative;
+    left: 3vw;
+    top: 0.5vh;
+}
+
+.github-link-contact {
+    height: 100%;
+    width: 100%;
+    grid-area: gh-link;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2vw;
+    font-weight: 300;
+    display: flex;
+    color: hsla(0, 0%, 0%, 0.7); 
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 1vh;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.gmail-contact {
+    grid-area: gmail;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: 'gm-icon gm-link';
+}
+
+.gmail-icon-contact {
+    grid-area: gm-icon;
+    background: url('../img/gmail-icon.png') no-repeat;
+    background-size: contain;
+    width: 75%;
+    height: 75%;
+    position: relative;
+    left: 3vw;
+    top: 0.5vh;
+}
+
+.gmail-link-contact {
+    height: 100%;
+    width: 100%;
+    grid-area: gm-link;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2vw;
+    font-weight: 300;
+    display: flex;
+    color: hsla(0, 0%, 0%, 0.7); 
+    margin:0;
+}
+
+
+
+
+
+
