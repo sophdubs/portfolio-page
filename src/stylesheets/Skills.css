@@ -1,0 +1,50 @@
+#skills {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'top-skills'
+                         'bottom-skills';
+    width: 90vw;
+}
+
+.top-skills {
+    grid-area: top-skills;
+    font-family: 'Shadows Into Light', cursive;
+    color: hsla(0, 0%, 0%, 0.7); 
+}
+
+.bottom-skills {
+    grid-area: bottom-skills; 
+    background: url('../img/hand-line-drawing.jpg') no-repeat;
+    background-size: 70vw 50vh;
+    position: relative;
+    left: 20vw;
+    top: -10vh;
+}
+
+.title-skills {
+    font-family: 'Shadows Into Light', cursive;
+    color: hsla(0, 0%, 0%, 0.7); 
+    font-size: 6vw;
+    font-weight:100;
+    position:relative;
+    left: 28vw;
+    top:-25vh;
+}
+
+.list-of-skills {
+    position: absolute;
+    left: 17vw;
+    top: 15vh;
+    font-size: 2vw;
+    z-index: 10;
+}
+
+.ul-skills {
+    position: relative;
+    left: -4vw;
+}
+
+p {
+    margin: 0;
+}
