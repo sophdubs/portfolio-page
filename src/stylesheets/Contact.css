@@ -166,6 +166,26 @@ li:hover {
     margin:0;
 }
 
+.linked-in-contact:hover {
+    position: relative;
+    left: 2vw;
+}
+
+.github-contact:hover {
+    position: relative;
+    left: 2vw;
+}
+
+.twitter-contact:hover {
+    position: relative;
+    left: 2vw;
+}
+
+.gmail-contact:hover {
+    position: relative;
+    left: 2vw;
+}
+
 
 
 
