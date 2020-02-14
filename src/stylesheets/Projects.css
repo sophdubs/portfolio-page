@@ -1,0 +1,41 @@
+#projects {
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'top'
+                         'bottom';
+}
+
+.top-projects {
+    grid-area: top;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 'title image';
+}
+
+.title-projects {
+    grid-area: title;
+    position: relative;
+    font-size: 7vw;
+    left: 20vw;
+    top: 10vh;
+    z-index: 10;
+    font-family: Bradley Hand, cursive;
+    font-weight: lighter;
+}
+
+.image-projects {
+    grid-area: image;
+    position: relative;
+    background: url('../img/book.jpg') no-repeat;
+    top: 2vh;
+    left: 10vw;
+    background-size: 70% 100%; 
+}
+
+.bottom-projects {
+    grid-area: bottom;
+    /* background: green; */
+}
