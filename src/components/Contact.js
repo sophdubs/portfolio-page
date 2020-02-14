@@ -31,7 +31,7 @@ class Contact extends React.Component {
                         </ul>
                     </div>  
                 </div>
-                <div className="right-container"></div>
+                <div id="right-container-contact" className="right-container"></div>
             </div>
         );
     };
