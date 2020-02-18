@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import '../stylesheets/Landing.css';
 
 class Landing extends React.Component {
@@ -13,7 +15,9 @@ class Landing extends React.Component {
                 <div className="text-landing">
                     <h2>Hi, I'm Sophie</h2>
                     <h3>I am a front-end web developer</h3>
-                    <p className='learn-more-landing'>Learn more about what I do &#xbb;</p>
+                    <Link to="/Home">
+                        <p className='learn-more-landing'>Learn more about what I do &#xbb;</p>
+                    </Link>
                 </div>
             </div>
         )

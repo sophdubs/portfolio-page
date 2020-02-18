@@ -17,6 +17,7 @@ class Skills extends React.Component {
                             <p>{`<li>Node</li>`}</p>
                             <p>{`<li>JQuery</li>`}</p>
                             <p>{`<li>Git</li>`}</p>
+                            <p>{`<li>Redux</li>`}</p>
                             <p className="ul-skills">{`</ul>`}</p>
                         </div>
                     </div>
