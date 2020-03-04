@@ -43,8 +43,8 @@ class Projects extends React.Component {
                         <li className="five">
                             <div className="shape">
                                 <div className="shape-content">
-                                    <h1 className="project-name">Algorithm Solver/Visualizer</h1>
-                                    <p className="project-desc">This app gives the user step by step solutions to the 10 most common algorithms??? >>></p>
+                                    <h1 className="project-name">Sorting Algorithm Visualizer</h1>
+                                    <p className="project-desc">This app allows the user to visualize how different sorting algorithms work. It also gives the user useful information such as run time, memory usage and common uses. >>></p>
                                 </div>
                             </div>
                         </li>
